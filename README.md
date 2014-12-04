@@ -1,4 +1,4 @@
 bozurkadyo-chrome
 =================
 
-Google Chrome and Yandex Browser Radio Stream Plugin
+Google Chrome and Yandex Browser Shoutcast Radio Stream Plugin
