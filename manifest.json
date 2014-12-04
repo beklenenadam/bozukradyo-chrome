@@ -1,0 +1,32 @@
+{
+    "name": "__MSG_appName__",
+    "version": "1.0.3",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+	"homepage_url": "http://www.bozukradyo.com/",
+	"options_page": "ayar.html",
+	"permissions": [ "http://*.google.com/" , "tabs" , "bookmarks" , "http://*.bozukradyo.com/"],
+	
+    "icons": {
+        "16": "gorsel/icon-16.png",
+        "48": "gorsel/icon-48.png",
+        "128": "gorsel/icon-128.png"
+    },
+    "default_locale": "tr",
+    "background": {
+        "scripts": [
+            "js/chromereload.js",
+            "js/arkaplan.js",
+            "js/jquery-2.1.1.min.js",
+            "js/soundmanager2-jsmin.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "gorsel/oynat.png",
+            "name": "Radyoyu başlat"
+        },
+        "default_title": "BozukRadyo Chrome Player"
+    }
+	
+}
